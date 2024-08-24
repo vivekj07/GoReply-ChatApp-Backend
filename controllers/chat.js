@@ -446,8 +446,5 @@ const getMessages = async (req, res, next) => {
 
 }
 
-export {
-    newGroupChat, getMyChats, getMyGroups, addMembers, removeMembers, leaveGroup,
-    sendAttachments, getChatDetails, renameGroup, deleteChat, getMessages
-}
+export { addMembers, deleteChat, getChatDetails, getMessages, getMyChats, getMyGroups, leaveGroup, newGroupChat, removeMembers, renameGroup, sendAttachments }
 

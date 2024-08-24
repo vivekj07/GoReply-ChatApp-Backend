@@ -1,10 +1,10 @@
 import express from "express"
 
-import { isAuthenticated } from "../middlewares/auth.js"
 import {
     addMembers, deleteChat, getChatDetails, getMessages, getMyChats, getMyGroups, leaveGroup,
     newGroupChat, removeMembers, renameGroup, sendAttachments
 } from "../controllers/chat.js"
+import { isAuthenticated } from "../middlewares/auth.js"
 import { attachmentsMulter } from "../middlewares/multer.js"
 
 

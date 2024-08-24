@@ -1,6 +1,6 @@
+import { faker } from "@faker-js/faker"
 import mongoose from "mongoose"
 import { Chat } from "../models/chat.js"
-import { faker } from "@faker-js/faker"
 
 export const sampleChats = async (number) => {
     try {

@@ -1,7 +1,7 @@
-import mongoose from "mongoose"
-import { io, userSocketIDs } from "../app.js"
 import { v2 as cloudinary } from "cloudinary"
+import mongoose from "mongoose"
 import { v4 } from "uuid"
+import { io, userSocketIDs } from "../app.js"
 
 const ConnectDB = (uri) => {
 
@@ -74,5 +74,5 @@ const uploadFlilesToCloudinary = async (files = []) => {
 
 }
 
-export { ConnectDB, emitEvent, delefilesFromCloudinary, getSockets, uploadFlilesToCloudinary }
+export { ConnectDB, delefilesFromCloudinary, emitEvent, getSockets, uploadFlilesToCloudinary }
 

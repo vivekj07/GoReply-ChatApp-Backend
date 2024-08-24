@@ -28,7 +28,7 @@ cloudinary.config({
 
 
 const port = process.env.PORT || 4000;
-const mongo_uri = process.env.mongo_uri
+const mongo_uri = process.env.MONGO_URI
 export const envMode = process.env.NODE_ENV || "PRODUCTION"
 export const userSocketIDs = new Map()
 export const onlineUsers = new Set()
